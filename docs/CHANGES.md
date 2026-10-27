@@ -11,7 +11,7 @@ the parts of the official fix that are not in this patch, and why.
 | Official fix | php-src commit [712e60f9edfd03f0960fc4fc3c2c375f42b90aa2](https://github.com/php/php-src/commit/712e60f9edfd03f0960fc4fc3c2c375f42b90aa2), "Avoid state corruption via bailout", Arnaud Le Blanc, 18 Oct 2026, branch `PHP-7.4-CVE-2026-109618-109619` |
 | Official fix, local copy | `upstream/php-src-712e60f9.patch` |
 | PHP advisories | [GHSA-w8hw-w9fx-j79w](https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w) (CVE-2026-109618), [GHSA-6wmf-4rv5-p3rp](https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp) (CVE-2026-109619) |
-| 5.4 port | [alvm/php2shell-eol-backport](https://github.com/alvm/php2shell-eol-backport), tag `v1`, commit `b796ee5`, file `patches/el7/php-5.4.16-48.el7-cve-2026-109618.patch` |
+| 5.4 port | Independent, unofficial open-source port of the official fix to PHP 5.4 (third party), used unchanged and saved here as `patches/php-5.4.16-php2shell.patch` |
 | Base source | Red Hat php-5.4.16-48.el7 (Oracle Linux 7 rebuild of the same source package) |
 
 "Upstream" links point to the changed lines in the official 7.4 fix. "Patch lines" are
