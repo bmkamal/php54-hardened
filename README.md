@@ -63,9 +63,3 @@ behaves the old, vulnerable way and the patched build the fixed way.
 | Tag | Archive | Archive SHA-256 |
 | --- | --- | --- |
 | `v1.0.0-staging` | `php54-hardened-1.0.0-staging.tar.gz` | `8037dd18e47a015ecb278d78cf3d7e81a7318f94f4ded08448c2de072f5607be` |
-
-## Known gap
-
-PHP's official fix also changes `substring_conf()` in `main/rfc1867.c` from `int` to
-`size_t`. This patch does not include it (N01 in the change register). The risk is low,
-because `post_max_size` limits request size; it is planned for a later release.
